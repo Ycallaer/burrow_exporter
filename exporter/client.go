@@ -66,7 +66,6 @@ type ConsumerGroupStatus struct {
 type Partition struct {
 	Topic      string `json:"topic"`
 	Partition  int32  `json:"partition"`
-	Owner      string `json:"owner"`
 	Status     string `json:"status"`
 	Start      Offset `json:"start"`
 	End        Offset `json:"end"`
