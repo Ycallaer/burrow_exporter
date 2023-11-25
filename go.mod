@@ -9,4 +9,4 @@ require (
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )
 
-go 1.13
+go 1.21
